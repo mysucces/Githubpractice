@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+li{
+    text-decoration: none;
+
+}
+ul{
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    list-style-type: none;
+    font-size: 1.1rem;
+    align-items: center;
+    justify-content: space-around;
+    width: 60vw;
+}
+
+.headernavbar{
+    width: 100vw;
+    display: flex;
+    background-color:cadetblue;
+    height: 4rem;
+    position: fixed;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    transition-property: background-color, border-radius;
+    transition-duration: 7s;
+}
+.headernavbar:hover{
+    background-color: blue;
+    border-radius: 20%;
+}
+.logoandmail{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+}
+.mylogo{
+    font-size:1.8rem;
+    color: white;
+}
+.myemail{
+    font-size: 1.4rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    background-color: rgb(11, 51, 53);
+    border: 2px solid gray;
+    padding: 1rem;
+}
+.bodycontent{
+    background:linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.5)) ,url(wu1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 50rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    animation: slide 60s infinite;
+    
+}
+
+@keyframes slide {
+    10%{
+        background: url(niqobi.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    20%{
+        background: url(mylaptop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    30%{
+        background: url(solidbackground.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    40%{
+        background: url(milestoneimage2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    50%{
+        background: url(brownniqobi.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    60%{
+        background: url(cornerstonelogo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    70%{
+        background: url(logo-icon-design-letter-creative-r-standard-08d0031a7f91673719811f25c503e395.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    80%{
+        background: url(brighterimage.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    90%{
+        background: url(Milestone-logo1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    100%{
+        background: url(cornerstone2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+}
+.content{
+    color: white;
+    font-size: 3rem;
+    animation: discover 1s infinite;
+}
+@keyframes discover {
+    10%{color: coral;}
+    20%{color: red;}
+    30%{color: plum;}
+    40%{color: pink;}
+    50%{color:palegreen}
+    60%{color: palegoldenrod;}
+    70%{color: orange;}
+}
+.button1{
+    background-color: white;
+    border-radius: 2rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    border: 10px solid rgb(23, 93, 95);
+    color: rgb(23, 93, 95);
+}
+.button2{
+    background-color: white;
+    border-radius: 2rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    border: 10px solid rgb(23, 93, 95);
+    color: rgb(23, 93, 95);
+}
+.maincontent{
+    display: flex;
+    font-size: 1.1rem;
+    height: 15rem;
+    justify-content: center;
+}
+.future{
+    background-color: sienna;
+    height: 11rem;
+    width: 12rem;
+    padding-top: 1.1rem;
+    color: white;
+    text-align: center;
+}
+.community{
+    background-color: cadetblue;
+    height: 11rem;
+    width: 12rem;
+    padding-top: 1.1rem;
+    color: white;
+    text-align: center;
+}
+.curriculum{
+    background-color: rgb(1, 49, 1);
+    height: 11rem;
+    width: 12rem;
+    padding-top: 1.1rem;
+    color: white;
+    text-align: center;
+}
+.timing{
+    background-color: rgb(165, 9, 35);
+    height: 11rem;
+    width: 12rem;
+    padding-top: 1.1rem;
+    color: white;
+    text-align: center;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    
+}
+.toschool{
+    color: navy;
+    font-weight: bold;
+    font-family: fantasy;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+}
+.footer{
+    background-color: gray;
+    justify-content: center;
+    position: fixed;
+    font-size: 2rem;
+    display: flex;
+    width: 100vw;
+    bottom: 0;
+}
+.icon1{
+    font-size: 1.5rem;
+}
+.myicons{
+   display: flex;
+    color: rgb(243, 219, 219);
+    justify-content: center;
+    background-color: cadetblue;
+    justify-content: space-around;
+    margin-bottom: rem;
+    height: 3rem;
+    position: fixed;
+    bottom: 2rem;
+    width: 100%;
+}
+.icon2{
+    font-size: 2rem;
+
+}
+.mywork{
+    opacity: 0;
+    display: flex;
+    position: fixed;
+    top: 4.5rem;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3%;
+    justify-content: space-around;
+    height: 30rem;
+    width: 25rem;
+}
+.mywork.show{
+    opacity: 1;
+}
+
+.dicon{
+    font-size: 2rem;
+    font-family:serif;
+    color: rgb(15, 132, 136);
+}
+.closeform{
+    font-size: 2rem;
+    font-family:serif;
+    color: red;
+    margin-left: 4rem;
+}
+.cancel{
+    width: 80%;
+    display: flex;
+    margin-left: 12rem;
+}
+.login{
+    color: rgb(15, 132, 136);
+}
+input{
+    border: none;
+    outline: none;
+    background-color: rgb(15, 132, 136);;
+    width: 18rem;
+    height: 2rem;
+    cursor: pointer;
+}
+#eyeopen{
+    display: none;
+}
+.div1{    
+    width: 20rem;
+    height: 2.5rem;
+    border:3px solid rgb(15, 132, 136);;
+    background-color: rgb(15, 132, 136);;
+    color: white;
+
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+.div2{    
+     width: 20rem;
+    height: 2rem;
+    border:3px solid rgb(15, 132, 136);
+    background-color: rgb(15, 132, 136);;
+    color: white;  
+    display: flex;
+    align-items: center;
+}
+.reset{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(15, 132, 136);
+    display: flex;
+    width: 80%;
+    
+}
+.reset a{
+    color: rgb(15, 132, 136);
+    text-decoration: underline;
+}
+.reset a:hover{
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.5));
+    border: 1px solid rgb(15, 132, 136);
+    padding: 0.5rem;
+}
+.remember{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.toggle1{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    color: rgb(15, 132, 136);
+    
+}
+#toggleremember{
+    font-size: 1.6rem;
+    color:darkmagenta;
+}
+#ontoggle{
+    display: none;
+}
+.myloginbutton{
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.5));
+    padding: 10px;
+    width: 22rem;
+    height: 3rem;
+    color: black;
+    border-radius: 5rem;
+    border: 3px solid rgb(15, 132, 136);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.myloginbutton a{
+    color: black;
+    text-decoration: none;
+}
+.myloginbutton a:hover{
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,0,255,0.5));
+    border: 1px solid gray;
+    padding: 0.5rem;
+}
+.line{
+    color: rgb(15, 132, 136);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+.line1{
+    height: 1px;
+    width: 10rem;
+    background-color: rgb(15, 132, 136);
+}
+.line2{
+    height: 1px;
+    width: 10rem;
+    background-color: rgb(15, 132, 136);
+}
+.continue{
+    background-color:rgb(15, 132, 136);
+    padding: 10px;
+    width: 22rem;
+    height: 2.5rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.continue a{
+    color: white;
+    text-decoration: none;
+}
+.continue a:hover{
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.5));
+    border: 1px solid gray;
+    padding: 0.5rem;
+}
+.myfacebook{
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account{
+    color: rgb(15, 132, 136);
+
+}
+.myaccount{
+    display: flex;
+}
+.signupaccount a{
+    color:rgb(15, 132, 136);
+    text-decoration: underline;
+}
+.signupaccount a:hover{
+    background: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.5));
+    border: 1px solid gray;
+    padding: 0.5rem;
+}
+form{
+    height: 100%;
+    width: 30rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3%;
+    justify-content: space-around;
+}
+
+/*smaller media screen*/
+@media screen and (min-width:570px) {
+    
+ 
+    
+}
+
+

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(119, 83, 119);
+}
+nav{
+    display: flex;
+    height: 60px;
+    background-color:rgb(231, 203, 203);
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    font-size: 1.3rem;
+    color: purple;
+}
+ul{
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    list-style-type: none;
+    font-weight:bolder;
+}
+.mine{
+    display: flex;
+    width: 50vw;
+}
+a{
+    text-decoration: none;
+    color: purple;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.dbackground{
+    background-color: rgb(231, 203, 203);
+    color: purple;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: bolder;
+
+}
+#mybtn{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: purple;
+    font-weight: bolder;
+    font-size: 2rem;
+    border-radius: 3rem;
+    border-color: purple;
+    border-width: 1rem;
+}
